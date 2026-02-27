@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Internetowa Radka</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="nav-logo">Strona Internetowa Radka</h1>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Strona główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">O mnie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projekty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Kontakt</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Witaj na mojej stronie!</h2>
+                <p class="hero-subtitle">Jestem pierdolony huj Radek i zapraszam do poznania mojego zberezniczego świata</p>
+                <button class="cta-button">Dowiedz się więcej</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">O mnie</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Cześć! Jestem Radek - pasjonat technologii i programowania, ale przede wszystkim jebana faja. Na tej stronie chciałbym podzielić się z Tobą moimi projektami, pasjami i doświadczeniem.</p>
+                        <p>Specjalizuję się w tworzeniu nowoczesnych rozwiązań internetowych i zawsze dążę do doskonałości w tym, co robię.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Umiejętności</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Moje projekty</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <h3>Projekt 1</h3>
+                        <p>Opis pierwszego projektu - nowoczesna aplikacja webowa</p>
+                        <a href="#" class="project-link">Zobacz więcej</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <h3>Projekt 2</h3>
+                        <p>Opis drugiego projektu - mobilna aplikacja</p>
+                        <a href="#" class="project-link">Zobacz więcej</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <h3>Projekt 3</h3>
+                        <p>Opis trzeciego projektu - system zarządzania</p>
+                        <a href="#" class="project-link">Zobacz więcej</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Skontaktuj się ze mną</h3>
+                        <p>Jeśli masz jakieś pytania lub chcesz współpracować, śmiało się ze mną skontaktuj!</p>
+                        <div class="contact-details">
+                            <p><strong>Email:</strong> radek@example.com</p>
+                            <p><strong>Telefon:</strong> +48 123 456 789</p>
+                            <p><strong>Lokalizacja:</strong> Polska</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Twoje imię" required>
+                        <input type="email" placeholder="Twój email" required>
+                        <textarea placeholder="Twoja wiadomość" rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">Wyślij wiadomość</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Strona Internetowa Radka. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
